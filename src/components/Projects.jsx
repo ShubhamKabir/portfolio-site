@@ -24,7 +24,7 @@ export default function Projects() {
 
 <br />
 
-<a href="https://YOUR-LIVE-LINK.vercel.app" target="_blank">
+<a href="https://react-task-manager-beta-taupe.vercel.app" target="_blank">
   Live Demo
 </a>
       </div>
