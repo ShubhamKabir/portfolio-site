@@ -22,7 +22,7 @@ This is my personal portfolio website built using React. It showcases my project
 - Search and filter users
 
 ## 🔗 Live Demo
-(Add your portfolio Vercel link here)
+(https://portfolio-site-taupe-zeta-18.vercel.app/))
 
 ## 📁 GitHub Repo
-(Add your repo link here)
+(https://github.com/ShubhamKabir/portfolio-site))
