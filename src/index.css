@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
