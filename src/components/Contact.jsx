@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section style={{ padding: "30px 40px" }}>
+    <section style={{ padding: "20px 40px", marginBottom: "20px" }}>
       <h2>Contact</h2>
 
       <p>Email: kabirshubxxxx@gmail.com</p>
