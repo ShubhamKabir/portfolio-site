@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <Experience/>
       <Footer />
     </div>
   );
