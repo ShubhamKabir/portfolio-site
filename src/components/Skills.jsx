@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <section style={{ padding: "30px 40px" }}>
+    <section style={{ padding: "20px 40px", marginBottom: "20px" }}>
       <h2>Skills</h2>
 
       <p>
