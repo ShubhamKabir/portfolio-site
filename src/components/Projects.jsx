@@ -1,32 +1,64 @@
 export default function Projects() {
   return (
-    <section style={{ padding: "20px" }}>
+    <section id="projects" style={{ padding: "40px" }}>
       <h2>Projects</h2>
 
-      <div>
-       <h3>Task Manager + User Dashboard</h3>
+      {/* AI Project */}
+      <div style={{ marginBottom: "30px" }}>
+        <h3>AI Gaming Growth Assistant</h3>
+        <p>
+          AI-powered system that generates video ideas, optimizes titles, and improves content performance using structured prompt engineering.
+        </p>
 
-<p>
-  A React application that allows users to manage tasks with local storage
-  and integrates an external API to display and search user data.
-</p>
+        <a
+          href="https://github.com/ShubhamKabir/ai-gaming-growth-assistant"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Code
+        </a>
+      </div>
 
-<ul>
-  <li>Add, delete, and complete tasks</li>
-  <li>Persist data using localStorage</li>
-  <li>Fetch users from API</li>
-  <li>Search and filter users</li>
-</ul>
+      {/* SQL Project */}
+      <div style={{ marginBottom: "30px" }}>
+        <h3>SQL + Python Data Analysis</h3>
+        <p>
+          Data analysis project using SQL and pandas to extract, clean, and generate meaningful insights from datasets.
+        </p>
 
-<a href="https://github.com/ShubhamKabir/react-task-manager" target="_blank">
-  View Code
-</a>
+        <a
+          href="https://github.com/ShubhamKabir/sql-python-data-analysis"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Code
+        </a>
+      </div>
 
-<br />
+      {/* React Project */}
+      <div style={{ marginBottom: "30px" }}>
+        <h3>React Task Manager + User Search</h3>
+        <p>
+          Task management application with API integration, user search, and LocalStorage-based persistence.
+        </p>
 
-<a href="https://react-task-manager-beta-taupe.vercel.app" target="_blank">
-  Live Demo
-</a>
+        <a
+          href="https://github.com/ShubhamKabir/react-task-manager"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Code
+        </a>
+
+        <br />
+
+        <a
+          href="https://react-task-manager-beta-taupe.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live Demo
+        </a>
       </div>
     </section>
   );
