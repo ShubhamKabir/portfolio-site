@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section id="projects" style={{ padding: "40px" }}>
+    <section id="projects" style={{ padding: "20px 40px" }}>
       <h2>Projects</h2>
 
       {/* AI Project */}
