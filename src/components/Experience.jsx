@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <section style={{ padding: "30px 40px" }}>
+    <section style={{ padding: "20px 40px", marginBottom: "20px" }}>
       <h2>Experience</h2>
 
       <div style={{ marginBottom: "20px" }}>
