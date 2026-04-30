@@ -5,6 +5,7 @@ font-family: system-ui, Arial, sans-serif;
 max-width: 900px;
 margin-left: auto;
 margin-right: auto;
+padding: 0 10px; /* small side padding for mobile */
 }
 
 /* SMOOTH SCROLL */
@@ -14,16 +15,19 @@ scroll-behavior: smooth;
 
 /* SECTION LAYOUT */
 section {
-padding: 20px 40px;
-margin-bottom: 20px;
+padding: 20px 30px;
+margin: 0 auto 20px auto;
 border-bottom: 1px solid #1f2a44;
+background: rgba(255, 255, 255, 0.02); /* subtle card feel */
+border-radius: 8px;
 }
 
-/* HERO SECTION (FIRST SECTION) */
+/* HERO SECTION */
 section:first-of-type {
 text-align: center;
 padding: 40px 20px 20px;
 border-bottom: none;
+background: transparent;
 }
 
 /* HEADINGS */
@@ -56,7 +60,21 @@ a:hover {
 opacity: 0.8;
 }
 
-/* PROJECT BLOCK SPACING */
+/* PROJECT BLOCKS */
 section div {
 margin-bottom: 20px;
+padding-bottom: 10px;
+border-bottom: 1px solid #1f2a44;
+}
+
+/* remove border from last item */
+section div:last-child {
+border-bottom: none;
+}
+
+/* MOBILE IMPROVEMENT */
+@media (max-width: 768px) {
+section {
+padding: 20px;
+}
 }
