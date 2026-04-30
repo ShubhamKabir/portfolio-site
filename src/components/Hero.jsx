@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section style={{ padding: "40px", textAlign: "center" }}>
+    <section style={{ padding: "40px 20px 20px", textAlign: "center" }}>
       <h1>Shubham</h1>
       
       <p>
