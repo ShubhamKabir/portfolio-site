@@ -1,11 +1,15 @@
 export default function Hero() {
   return (
     <section style={{ padding: "40px", textAlign: "center" }}>
-      <h1>Shubham K</h1>
-      <p>Frontend Developer</p>
+      <h1>Shubham</h1>
+      
       <p>
-  Frontend developer focused on building responsive and interactive web applications using React and modern JavaScript.
-</p>
+        Python | SQL | AI Systems | Freelance + YouTube Experience
+      </p>
+
+      <p>
+        I build data-driven solutions and AI-powered systems with real-world applications, combining technical skills with content strategy and analytics.
+      </p>
     </section>
   );
 }
