@@ -3,15 +3,16 @@ export default function Projects() {
     <section id="projects" style={{ padding: "20px 40px" }}>
       <h2>Projects</h2>
 
-      {/* AI Project */}
+      {/* AI Technical Support Assistant */}
       <div style={{ marginBottom: "30px" }}>
-        <h3>AI Gaming Growth Assistant</h3>
+        <h3>AI Technical Support Assistant</h3>
+
         <p>
-          AI-powered system that generates video ideas, optimizes titles, and improves content performance using structured prompt engineering.
+          Python-based system that classifies user issues and generates structured troubleshooting responses using workflow-based logic.
         </p>
 
         <a
-          href="https://github.com/ShubhamKabir/ai-gaming-growth-assistant"
+          href="https://github.com/ShubhamKabir/ai-support-assistant"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -22,12 +23,13 @@ export default function Projects() {
       {/* SQL Project */}
       <div style={{ marginBottom: "30px" }}>
         <h3>SQL + Python Data Analysis</h3>
+
         <p>
           Data analysis project using SQL and pandas to extract, clean, and generate meaningful insights from datasets.
         </p>
 
         <a
-          href="https://github.com/ShubhamKabir/sql-python-data-analysis"
+          href="https://github.com/ShubhamKabir/sql-python-data-analysis-v2"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -38,6 +40,7 @@ export default function Projects() {
       {/* React Project */}
       <div style={{ marginBottom: "30px" }}>
         <h3>React Task Manager + User Search</h3>
+
         <p>
           Task management application with API integration, user search, and LocalStorage-based persistence.
         </p>
