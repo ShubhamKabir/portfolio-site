@@ -4,21 +4,22 @@ export default function Experience() {
       <h2>Experience</h2>
 
       <div style={{ marginBottom: "20px" }}>
-        <h3>Freelance & Content Experience</h3>
+        <h3>Freelance Content & Digital Media Specialist</h3>
 
         <p>
-          Delivered 80+ freelance projects on Fiverr for 60+ clients,
-          focusing on video editing, content optimization, and data-related tasks.
+          Delivered 80+ freelance projects for 60+ clients through Fiverr and
+          independent work, achieving Level 1 Seller status.
         </p>
 
         <p>
-          Managed a YouTube channel with 500+ videos, applying strategies
-          for titles, thumbnails, and audience engagement.
+          Managed publishing and optimization for a UK-based YouTube channel,
+          improving content presentation through titles, descriptions, tags,
+          and thumbnails.
         </p>
 
         <p>
-          Worked with international clients and handled end-to-end content workflows
-          including research, scripting, editing, and publishing.
+          Worked on content workflows, technical support, troubleshooting,
+          video editing, and client-focused solutions.
         </p>
       </div>
     </section>
