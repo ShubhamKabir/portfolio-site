@@ -5,10 +5,11 @@ export default function Skills() {
 
       <p>
         Python, SQL, Pandas <br />
-        React, JavaScript <br />
-        Prompt Engineering <br />
+        Prompt Engineering, AI-Assisted Workflows <br />
+        HTML, CSS, JavaScript, React <br />
         Git & GitHub <br />
-        Java (basic), C/C++ (fundamentals)
+        Java (basic), C/C++ (fundamentals) <br />
+        Premiere Pro, After Effects, Photoshop
       </p>
     </section>
   );
