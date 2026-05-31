@@ -1,25 +1,29 @@
 export default function Hero() {
   return (
     <section style={{ padding: "40px 20px 20px", textAlign: "center" }}>
-      <h1>Shubham</h1>
-      
+      <h1>Shubham Adarsh Kabir</h1>
+
       <p>
-        Python | SQL | AI Systems | Freelance + YouTube Experience
+        Python | SQL | AI Workflows | Freelance & Content Operations
       </p>
 
       <p>
-        I build data-driven solutions and AI-powered systems with real-world applications, combining technical skills with content strategy and analytics.
+        Technical content and data-focused professional with experience in Python, SQL, AI-assisted workflows, and freelance project delivery.
       </p>
 
       <div style={{ marginTop: "20px" }}>
         <a href="#projects" style={{ marginRight: "10px" }}>
           View Projects
         </a>
-        <a href="https://github.com/ShubhamKabir" target="_blank" rel="noopener noreferrer">
+
+        <a
+          href="https://github.com/ShubhamKabir"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>
       </div>
-
     </section>
   );
 }
